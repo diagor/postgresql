@@ -1,0 +1,13 @@
+DEBIAN
+VERSIONE = postgres 9.3
+UNINSTALL VERSIONE PRECEDENTE = sudo apt-get --purge remove postgresql; dpkg -l | grep postgres;
+INSTALL VERSIONE = apt-get install postgresql-9.3
+PATH sockect:  /var/run/postgres/
+CONFIG FILE : /etc/postgresql/9.3/main/postgresql.conf
+/etc/init.d/postgres start 9.3
+CONNESSIONE: sudo -u postgres psql
+CREAZIONE DEL RUOLO: create user app createdb createuser password 'password';
+
+
+
+
