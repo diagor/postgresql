@@ -9,5 +9,10 @@ CONNESSIONE: sudo -u postgres psql
 CREAZIONE DEL RUOLO: create user app createdb createuser password 'password';
 
 
-
+MAC CONFIGURAZIONE Postgresql.app
+download : http://postgresapp.com/
+BASH PROFILE : export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+CREARE UTENTE :createuser -s postgres
+download GUI : http://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/osx/
+Avviare GUI : name=Postgresql.app Host=localhost
 
